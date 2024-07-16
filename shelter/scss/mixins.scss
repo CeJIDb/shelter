@@ -17,3 +17,7 @@
 @mixin h5-modal-window {
   color: #000;
 }
+
+@mixin test-border {
+  border: 1px solid red;
+}
