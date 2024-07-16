@@ -1,10 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   font: 15px/1.6 Arial, sans-serif;
 }
 
 body {
   @include reset;
-  box-sizing: border-box;
+
+  width: 100vw;
 }
 
 h2,
@@ -12,6 +17,7 @@ h3,
 h4,
 h5 {
   font-family: Georgia, serif;
+  font-weight: normal;
   color: $color-dark-l;
 }
 
@@ -38,10 +44,17 @@ h5 {
   letter-spacing: 0.9px;
 }
 
-header {
+.header {
   @include flex(row, space-between, center);
 
-  margin: 30px 40px 90px;
+  position: relative;
+  top: 30px;
+  height: 0;
+  z-index: 10;
+
+  div {
+    padding-top: 30px;
+  }
 
   ul {
     @include reset;
@@ -51,8 +64,25 @@ header {
 
     list-style: none;
   }
+}
 
-  @include test-border;
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+
+  // @include test-border;
+}
+
+.paragraph-l {
+  color: $color-dark-xl;
+}
+
+.paragraph-s {
+  font-size: 12px;
+  line-height: 1.5;
+  font-style: italic;
+  color: $color-dark-m;
 }
 
 .logo {
@@ -81,6 +111,8 @@ header {
   font-style: normal;
   text-decoration: none;
   color: $color-dark-s;
+
+  transition: all 0.3s;
 
   &:hover {
     color: $color-light-s
@@ -111,28 +143,25 @@ header {
 
   font: 17px/1.3 Georgia, serif;
   letter-spacing: 1.02px;
+  text-decoration: none;
   color: $color-dark-3xl;
 
   transition: all 0.3s;
 
   &:hover {
-    border: none;
+    border-color: $color-primary-light;
     background-color: $color-primary-light;
   }
 
   &-color {
     background-color: $color-primary; 
-
-    &:hover {
-      background-color: $color-primary-light;
-    }
   }
   
   &-arrow {
     padding: 23px 19px;
 
     &:hover {
-      border: none;
+      border-color: $color-primary-light;
       background-color: $color-primary-light;
     }
 
@@ -142,7 +171,7 @@ header {
     }
 
     &-active {
-      border: none;
+      border-color: $color-primary;
       color: $color-primary;
     }
   }
@@ -161,4 +190,8 @@ header {
     border: none;
     background-color: $color-primary-light;
   }
+}
+
+.br {
+  @include flex(column);
 }

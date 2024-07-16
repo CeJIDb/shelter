@@ -1,5 +1,26 @@
 .start-screen {
-  
   background: $start-screen-gradient-background;
-  @include test-border;
+
+  .start-screen-content {
+    @include flex(row, space-between, center);
+    padding-top: 180px;
+
+    gap: 42px;
+
+    .side-left {
+      @include flex(column);
+
+      gap: 42px;
+
+      h2 {
+        @include reset;
+        color: $color-light-xl;
+      }
+    
+      p {
+        @include reset;
+        color: $color-dark-s;
+      }
+    }
+  }
 }
