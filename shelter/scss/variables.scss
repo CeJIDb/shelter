@@ -7,4 +7,4 @@ $color-light-s: #FAFAFA;
 $color-light-xl: #FFFFFF;
 $color-primary: #F1CDB3;
 $color-primary-light: #FDDCC4;
-$start-screen-gradient-background: url("../assets/images/noise_transparent.png") lightgray 0% 0% / 110.00000238418579px 110.00000238418579px repeat, radial-gradient(237.5% 111.8% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+$start-screen-gradient-background: url("../assets/images/noise_transparent.png"), 110.00000238418579px 110.00000238418579px repeat, radial-gradient(237.5% 111.8% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
