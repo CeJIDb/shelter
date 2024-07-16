@@ -1,0 +1,5 @@
+.start-screen {
+  
+  background: $start-screen-gradient-background;
+  @include test-border;
+}
