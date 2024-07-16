@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  @include reset;
   box-sizing: border-box;
 }
 
@@ -117,5 +118,20 @@ h5 {
       border: none;
       color: $color-primary;
     }
+  }
+}
+
+.card {
+  @include flex(column, flex-start, center);
+
+  width: 270px;
+  height: 435px;
+  padding-bottom: 30px;
+
+  gap: 30px;
+
+  &:hover .btn {
+    border: none;
+    background-color: $color-primary-light;
   }
 }
