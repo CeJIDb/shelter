@@ -1,0 +1,19 @@
+@mixin reset {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin paragraph-l {
+  color: $color-dark-xl;
+}
+
+@mixin paragraph-s {
+  font-size: 12px;
+  line-height: 1.5;
+  font-style: italic;
+  color: $color-dark-m;
+}
+
+@mixin h5-modal-window {
+  color: #000;
+}
