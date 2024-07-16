@@ -50,6 +50,28 @@ h5 {
   }
 }
 
+.link {
+  @include paragraph-s;
+  color: $color-dark-s;
+
+  &:hover {
+    color: $color-light-s
+  }
+
+  &-active {
+    color: $color-light-s;
+
+    &::after {
+      width: 100%;
+      height: 3px;
+
+      background-color: $color-primary;
+
+      content: "";
+    }
+  }
+}
+
 .btn {
   padding: 15px 45px;
   
