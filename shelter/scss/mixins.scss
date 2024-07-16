@@ -18,6 +18,13 @@
   color: #000;
 }
 
+@mixin flex ($fd: row, $jc: flex-start, $ai: stretch) {
+  display: flex;
+  flex-direction: $fd;
+  justify-content: $jc;
+  align-items: $ai;
+}
+
 @mixin test-border {
   border: 1px solid red;
 }
