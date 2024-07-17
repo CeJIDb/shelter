@@ -22,5 +22,18 @@
         color: $color-dark-s;
       }
     }
+
+    .side-right {
+      @include reset;
+
+      max-height: 728px;
+
+      img {
+        @include reset;
+
+        width: 698px;
+        height: 728px;
+      }
+    }
   }
 }
