@@ -8,7 +8,7 @@
     gap: 42px;
 
     .side-left {
-      @include flex(column);
+      @include flex(column, space-between, flex-start);
 
       gap: 42px;
 
