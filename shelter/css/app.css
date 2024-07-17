@@ -79,13 +79,14 @@ html {
 body {
   margin: 0;
   padding: 0;
-  width: 100vw;
 }
 
 h2,
 h3,
 h4,
 h5 {
+  margin: 0;
+  padding: 0;
   font-family: Georgia, serif;
   font-weight: normal;
   color: #545454;
@@ -145,10 +146,14 @@ h5 {
 }
 
 .paragraph-l {
+  margin: 0;
+  padding: 0;
   color: #4C4C4C;
 }
 
 .paragraph-s {
+  margin: 0;
+  padding: 0;
   font-size: 12px;
   line-height: 1.5;
   font-style: italic;
@@ -219,7 +224,13 @@ h5 {
   background-color: #F1CDB3;
 }
 .btn-arrow {
+  display: inline-flex;
   padding: 23px 19px;
+  align-items: center;
+}
+.btn-arrow img {
+  width: 14px;
+  height: 6px;
 }
 .btn-arrow:hover {
   border-color: #FDDCC4;
@@ -239,14 +250,19 @@ h5 {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  gap: 30px;
   width: 270px;
   height: 435px;
   padding-bottom: 30px;
-  gap: 30px;
+  background-color: #FAFAFA;
 }
 .card:hover .btn {
-  border: none;
+  border-color: #FDDCC4;
   background-color: #FDDCC4;
+}
+.card img {
+  width: 270px;
+  height: 270px;
 }
 
 .br {
@@ -254,6 +270,10 @@ h5 {
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
+}
+
+.test-border {
+  border: 1px solid red;
 }
 
 .start-screen {
@@ -307,6 +327,9 @@ h5 {
   gap: 120px;
   padding: 0 175px;
 }
+.about .about-content .side-left {
+  max-height: 408px;
+}
 .about .about-content .side-left img {
   width: 300px;
   height: 408px;
@@ -322,6 +345,38 @@ h5 {
 .about .about-content .side-right p {
   margin: 0;
   padding: 0;
+}
+
+.pets {
+  padding: 80px 25px 100px;
+  background-color: #F6F6F6;
+}
+.pets .pets-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+.pets .pets-content h3 {
+  text-align: center;
+}
+.pets .pets-content .slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.pets .pets-content .slider .cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 90px;
+}
+.pets .pets-content .slider .right-arrow img {
+  transform: rotate(180deg);
 }
 
 /*# sourceMappingURL=app.css.map */

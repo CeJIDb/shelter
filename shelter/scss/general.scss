@@ -8,14 +8,14 @@ html {
 
 body {
   @include reset;
-
-  width: 100vw;
 }
 
 h2,
 h3,
 h4,
 h5 {
+  @include reset;
+
   font-family: Georgia, serif;
   font-weight: normal;
   color: $color-dark-l;
@@ -75,10 +75,14 @@ h5 {
 }
 
 .paragraph-l {
+  @include reset;
+
   color: $color-dark-xl;
 }
 
 .paragraph-s {
+  @include reset;
+
   font-size: 12px;
   line-height: 1.5;
   font-style: italic;
@@ -158,7 +162,15 @@ h5 {
   }
   
   &-arrow {
+    display: inline-flex;
+    
     padding: 23px 19px;
+    align-items: center;
+
+    img {
+      width: 14px;
+      height: 6px;
+    }
 
     &:hover {
       border-color: $color-primary-light;
@@ -180,18 +192,29 @@ h5 {
 .card {
   @include flex(column, flex-start, center);
 
+  gap: 30px;
+
   width: 270px;
   height: 435px;
   padding-bottom: 30px;
 
-  gap: 30px;
+  background-color: $color-light-s;
 
   &:hover .btn {
     border-color: $color-primary-light;
     background-color: $color-primary-light;
   }
+
+  img {
+    width: 270px;
+    height: 270px;
+  }
 }
 
 .br {
   @include flex(column);
+}
+
+.test-border {
+  @include test-border;
 }
