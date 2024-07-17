@@ -187,7 +187,7 @@ h5 {
   gap: 30px;
 
   &:hover .btn {
-    border: none;
+    border-color: $color-primary-light;
     background-color: $color-primary-light;
   }
 }
