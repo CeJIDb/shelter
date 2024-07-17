@@ -1,0 +1,28 @@
+.about {
+  padding: 80px 25px 100px;
+  .about-content {
+    @include flex(row, space-between, center);
+
+    gap: 120px;
+
+    padding: 0 175px;
+
+    .side-left {
+      img {
+        width: 300px;
+        height: 408px;
+      }
+    }
+
+    .side-right {
+      @include flex(column);
+
+      gap: 25px;
+
+      h3,
+      p {
+        @include reset;
+      }
+    }
+  }
+}

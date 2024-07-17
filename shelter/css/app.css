@@ -284,5 +284,44 @@ h5 {
   padding: 0;
   color: #CDCDCD;
 }
+.start-screen .start-screen-content .side-right {
+  margin: 0;
+  padding: 0;
+  max-height: 728px;
+}
+.start-screen .start-screen-content .side-right img {
+  margin: 0;
+  padding: 0;
+  width: 698px;
+  height: 728px;
+}
+
+.about {
+  padding: 80px 25px 100px;
+}
+.about .about-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 120px;
+  padding: 0 175px;
+}
+.about .about-content .side-left img {
+  width: 300px;
+  height: 408px;
+}
+.about .about-content .side-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 25px;
+}
+.about .about-content .side-right h3,
+.about .about-content .side-right p {
+  margin: 0;
+  padding: 0;
+}
 
 /*# sourceMappingURL=app.css.map */
