@@ -1,0 +1,41 @@
+.donation {
+  padding: 80px 25px 100px;
+  background-color: $color-light-l;
+
+  .content {
+    max-width: 915px;
+  }
+
+  .donation-content {
+    @include flex(row, space-between, center);
+
+    gap: 30px;
+
+    .side-left {
+
+      img {
+        width: 505px;
+        height: 261px;
+
+        vertical-align: middle;
+      }
+    }
+
+    .side-right {
+      @include flex(column, space-between, flex-start);
+
+      gap: 20px;
+
+      .credit-card {
+        @include flex();
+
+        gap: 15px;
+
+        padding: 10px 15px;
+
+        border-radius: 9px;
+        background-color: $color-primary;
+      }
+    }
+  }
+}

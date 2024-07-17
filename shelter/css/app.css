@@ -290,8 +290,8 @@ h5 {
 .start-screen .start-screen-content .side-left {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: stretch;
+  justify-content: space-between;
+  align-items: flex-start;
   gap: 42px;
 }
 .start-screen .start-screen-content .side-left h2 {
@@ -304,16 +304,10 @@ h5 {
   padding: 0;
   color: #CDCDCD;
 }
-.start-screen .start-screen-content .side-right {
-  margin: 0;
-  padding: 0;
-  max-height: 728px;
-}
 .start-screen .start-screen-content .side-right img {
-  margin: 0;
-  padding: 0;
   width: 698px;
   height: 728px;
+  vertical-align: middle;
 }
 
 .about {
@@ -327,12 +321,10 @@ h5 {
   gap: 120px;
   padding: 0 175px;
 }
-.about .about-content .side-left {
-  max-height: 408px;
-}
 .about .about-content .side-left img {
   width: 300px;
   height: 408px;
+  vertical-align: middle;
 }
 .about .about-content .side-right {
   display: flex;
@@ -340,11 +332,6 @@ h5 {
   justify-content: flex-start;
   align-items: stretch;
   gap: 25px;
-}
-.about .about-content .side-right h3,
-.about .about-content .side-right p {
-  margin: 0;
-  padding: 0;
 }
 
 .pets {
@@ -412,6 +399,43 @@ h5 {
 .help .help-content .list .item img {
   width: 60px;
   height: 60px;
+}
+
+.donation {
+  padding: 80px 25px 100px;
+  background-color: #F6F6F6;
+}
+.donation .content {
+  max-width: 915px;
+}
+.donation .donation-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.donation .donation-content .side-left img {
+  width: 505px;
+  height: 261px;
+  vertical-align: middle;
+}
+.donation .donation-content .side-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+.donation .donation-content .side-right .credit-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 15px;
+  padding: 10px 15px;
+  border-radius: 9px;
+  background-color: #F1CDB3;
 }
 
 /*# sourceMappingURL=app.css.map */
