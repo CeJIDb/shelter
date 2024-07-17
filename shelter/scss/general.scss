@@ -47,10 +47,7 @@ h5 {
 .header {
   @include flex(row, space-between, center);
 
-  position: relative;
-  top: 30px;
-  height: 0;
-  z-index: 10;
+  margin-bottom: -90px;
 
   div {
     padding-top: 30px;
@@ -111,7 +108,7 @@ h5 {
 }
 
 .link {
-  @include paragraph-s;
+  font: inherit;
   font-style: normal;
   text-decoration: none;
   color: $color-dark-s;
@@ -123,9 +120,15 @@ h5 {
   }
 
   &-active {
+    position: relative;
+
     color: $color-light-s;
 
     &::after {
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+
       width: 100%;
       height: 3px;
 
