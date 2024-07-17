@@ -379,4 +379,39 @@ h5 {
   transform: rotate(180deg);
 }
 
+.help {
+  padding: 80px 25px 100px;
+}
+.help .help-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+.help .help-content h3 {
+  text-align: center;
+}
+.help .help-content .list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 120px;
+  row-gap: 55px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.help .help-content .list .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.help .help-content .list .item img {
+  width: 60px;
+  height: 60px;
+}
+
 /*# sourceMappingURL=app.css.map */
