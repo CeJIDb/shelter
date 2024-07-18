@@ -153,32 +153,25 @@ a {
   padding: 0;
   font: 32px/1.1 Georgia, serif;
   letter-spacing: 1.92px;
-  color: #F1CDB3;
 }
 .logo-subtitle {
   margin: 0;
   padding: 0;
   font: 13px/1.3 Arial, sans-serif;
-  color: #FFFFFF;
 }
 
 .link {
   font: inherit;
   font-style: normal;
-  color: #CDCDCD;
   transition: all 0.3s;
-}
-.link:hover {
-  color: #FAFAFA;
 }
 .link-active {
   position: relative;
-  color: #FAFAFA;
 }
 .link-active::after {
   position: absolute;
   left: 0;
-  bottom: -6px;
+  bottom: -7px;
   width: 100%;
   height: 3px;
   background-color: #F1CDB3;
@@ -344,167 +337,21 @@ a {
   vertical-align: middle;
 }
 
-.start-screen {
-  padding: 0 10px;
-  background: url("../assets/images/noise_transparent.png"), radial-gradient(237.5% 111.8% at 0% 0%, #5b483a 0%, #262425 100%), #211f20;
+.logo-title {
+  color: #545454;
 }
-.start-screen .start-screen-content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 180px;
-  gap: 42px;
-}
-.start-screen .start-screen-content .side-left {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 42px;
-}
-.start-screen .start-screen-content .side-left h2 {
-  margin: 0;
-  padding: 0;
-  color: #FFFFFF;
-}
-.start-screen .start-screen-content .side-left p {
-  margin: 0;
-  padding: 0;
-  color: #CDCDCD;
-}
-.start-screen .start-screen-content .side-right img {
-  width: 698px;
-  height: 728px;
-  vertical-align: middle;
+.logo-subtitle {
+  color: #292929;
 }
 
-.about {
-  padding: 80px 10px 100px;
+.link {
+  color: #545454;
 }
-.about .about-content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  gap: 120px;
-  padding: 0 175px;
+.link:hover {
+  color: #292929;
 }
-.about .about-content .side-left img {
-  width: 300px;
-  height: 408px;
-  vertical-align: middle;
-}
-.about .about-content .side-right {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: stretch;
-  gap: 25px;
+.link-active {
+  color: #545454;
 }
 
-.pets {
-  padding: 80px 10px 100px;
-  background-color: #F6F6F6;
-}
-.pets .pets-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  gap: 60px;
-}
-.pets .pets-content h3 {
-  text-align: center;
-}
-.pets .pets-content .slider {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-.pets .pets-content .slider .cards-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  gap: 90px;
-}
-.pets .pets-content .slider .right-arrow img {
-  transform: rotate(180deg);
-}
-
-.help {
-  padding: 80px 10px 100px;
-}
-.help .help-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  gap: 60px;
-}
-.help .help-content h3 {
-  text-align: center;
-}
-.help .help-content .list {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  column-gap: 120px;
-  row-gap: 55px;
-  flex-wrap: wrap;
-  width: 100%;
-}
-.help .help-content .list .item {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  gap: 30px;
-}
-.help .help-content .list .item img {
-  width: 60px;
-  height: 60px;
-}
-
-.donation {
-  padding: 80px 10px 100px;
-  background-color: #F6F6F6;
-}
-.donation .content {
-  max-width: 915px;
-}
-.donation .donation-content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  gap: 30px;
-}
-.donation .donation-content .side-left img {
-  width: 505px;
-  height: 261px;
-  vertical-align: middle;
-}
-.donation .donation-content .side-right {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 20px;
-}
-.donation .donation-content .side-right .credit-card {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: stretch;
-  gap: 15px;
-  padding: 10px 15px;
-  border-radius: 9px;
-  background-color: #F1CDB3;
-}
-
-/*# sourceMappingURL=app.css.map */
+/*# sourceMappingURL=pets-app.css.map */
