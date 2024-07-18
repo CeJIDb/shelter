@@ -32,24 +32,27 @@
         list-style: none;
 
         li {
-          @include flex(row, flex-start, center);
 
-          gap: 20px;
-          
-          .icon {
-    
-            height: 32px;
+          a {
+            @include flex(row, flex-start, center);
 
-            &-email,
-            &-phone {
-              width: 40px;
-            }
-
-            &-marker {
-              width: 22px;
+            gap: 20px;
+            
+            .icon {
+      
+              height: 32px;
+  
+              &-email,
+              &-phone {
+                width: 40px;
+              }
+  
+              &-marker {
+                width: 22px;
+              }
             }
           }
-        }
+          }
       }
     }
 

@@ -73,6 +73,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
   font: 15px/1.6 Arial, sans-serif;
 }
 
@@ -113,6 +114,10 @@ h5 {
   font-size: 15px;
   line-height: 1.1;
   letter-spacing: 0.9px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .content {
@@ -160,7 +165,6 @@ h5 {
 .link {
   font: inherit;
   font-style: normal;
-  text-decoration: none;
   color: #CDCDCD;
   transition: all 0.3s;
 }
@@ -189,7 +193,6 @@ h5 {
   vertical-align: middle;
   font: 17px/1.3 Georgia, serif;
   letter-spacing: 1.02px;
-  text-decoration: none;
   color: #292929;
   transition: all 0.3s;
 }
@@ -312,20 +315,20 @@ h5 {
   gap: 40px;
   list-style: none;
 }
-.footer .footer-content .item ul li {
+.footer .footer-content .item ul li a {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   gap: 20px;
 }
-.footer .footer-content .item ul li .icon {
+.footer .footer-content .item ul li a .icon {
   height: 32px;
 }
-.footer .footer-content .item ul li .icon-email, .footer .footer-content .item ul li .icon-phone {
+.footer .footer-content .item ul li a .icon-email, .footer .footer-content .item ul li a .icon-phone {
   width: 40px;
 }
-.footer .footer-content .item ul li .icon-marker {
+.footer .footer-content .item ul li a .icon-marker {
   width: 22px;
 }
 .footer .footer-content .locations {
