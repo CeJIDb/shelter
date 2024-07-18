@@ -1,0 +1,76 @@
+.footer {
+  padding: 40px 10px 0;
+
+  background: $start-screen-gradient-background;
+
+  .footer-content {
+    @include flex(row, center, start);
+
+    gap: 160px;
+
+    .item {
+      @include flex(column);
+
+      gap: 40px;
+
+      margin-top: 16px;
+
+      h3 {
+        color: $color-light-xl;
+      }
+
+      h4 {
+        color: $color-primary;
+      }
+
+      ul {
+        @include reset;
+        @include flex(column);
+
+        gap: 40px;
+
+        list-style: none;
+
+        li {
+          @include flex(row, flex-start, center);
+
+          gap: 20px;
+          
+          .icon {
+    
+            height: 32px;
+
+            &-email,
+            &-phone {
+              width: 40px;
+            }
+
+            &-marker {
+              width: 22px;
+            }
+          }
+        }
+      }
+    }
+
+    .locations {
+      flex: 1 0 300px;
+
+      gap: 32px;
+        
+      ul {
+        gap: 32px;
+      }
+    }
+
+    .img {
+
+      img {
+        width: 300px;
+        height: 310px;
+
+        vertical-align: middle;
+      }
+    }
+  }
+}
