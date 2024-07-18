@@ -1,0 +1,18 @@
+.header {
+  @include flex(row, space-between, center);
+
+  margin-bottom: -90px;
+
+  div {
+    padding-top: 30px;
+  }
+
+  ul {
+    @include reset;
+    @include flex(row, flex-start, center);
+
+    gap: 35px;
+
+    list-style: none;
+  }
+}

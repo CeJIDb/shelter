@@ -2,9 +2,10 @@
 @import "mixins";
 @import "fonts";
 @import "general";
+@import "header";
+@import "footer";
 @import "./main/main-start-screen.scss";
 @import "./main/main-about.scss";
 @import "./main/main-pets.scss";
 @import "./main/main-help.scss";
 @import "./main/main-donation.scss";
-@import "footer";
