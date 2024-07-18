@@ -167,6 +167,7 @@ a {
 }
 .link-active {
   position: relative;
+  pointer-events: none;
 }
 .link-active::after {
   position: absolute;
@@ -209,13 +210,19 @@ a {
   border-color: #FDDCC4;
   background-color: #FDDCC4;
 }
-.btn-arrow-inactive {
+.btn-active {
+  pointer-events: none;
+  border-color: #F1CDB3;
+  background-color: #F1CDB3;
+}
+.btn-inactive {
+  pointer-events: none;
   border-color: #CDCDCD;
   color: #CDCDCD;
 }
-.btn-arrow-active {
-  border-color: #F1CDB3;
-  color: #F1CDB3;
+.btn-inactive h4 {
+  border-color: #CDCDCD;
+  color: #CDCDCD;
 }
 
 .card {
@@ -338,7 +345,6 @@ a {
 
 .header {
   margin-bottom: 0;
-  border: 1px solid red;
 }
 .header div {
   padding-bottom: 30px;
@@ -359,6 +365,53 @@ a {
 }
 .link-active {
   color: #545454;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn-control {
+  width: 52px;
+  height: 52px;
+  padding: 0;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 1.2px;
+}
+
+.pets {
+  padding: 80px 10px 100px;
+  background-color: #F6F6F6;
+}
+.pets .pets-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 45px;
+}
+.pets .pets-content h3 {
+  text-align: center;
+}
+.pets .pets-content .slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.pets .pets-content .slider .cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
 }
 
 /*# sourceMappingURL=pets-app.css.map */

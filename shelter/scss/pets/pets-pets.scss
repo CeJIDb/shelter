@@ -1,0 +1,28 @@
+.pets {
+  padding: 80px 10px 100px;
+  
+  background-color: $color-light-l;
+
+  .pets-content {
+    @include flex(column, space-between, center);
+
+    gap: 45px;
+
+    h3 {
+      text-align: center;
+    }
+
+    .slider {
+      @include flex(row, space-between, center);
+    
+      width: 100%;
+
+      .cards-container {
+        @include flex(row, space-between, center);
+
+        flex-wrap: wrap;
+        gap: 40px;
+      }
+    }
+  }
+}

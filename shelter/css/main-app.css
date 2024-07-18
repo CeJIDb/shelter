@@ -167,6 +167,7 @@ a {
 }
 .link-active {
   position: relative;
+  pointer-events: none;
 }
 .link-active::after {
   position: absolute;
@@ -209,13 +210,19 @@ a {
   border-color: #FDDCC4;
   background-color: #FDDCC4;
 }
-.btn-arrow-inactive {
+.btn-active {
+  pointer-events: none;
+  border-color: #F1CDB3;
+  background-color: #F1CDB3;
+}
+.btn-inactive {
+  pointer-events: none;
   border-color: #CDCDCD;
   color: #CDCDCD;
 }
-.btn-arrow-active {
-  border-color: #F1CDB3;
-  color: #F1CDB3;
+.btn-inactive h4 {
+  border-color: #CDCDCD;
+  color: #CDCDCD;
 }
 
 .card {
@@ -257,7 +264,6 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: -120px;
 }
 .header div {
   padding: 30px 0;
@@ -335,6 +341,10 @@ a {
   width: 300px;
   height: 310px;
   vertical-align: middle;
+}
+
+.header {
+  margin-bottom: -120px;
 }
 
 .logo-title {

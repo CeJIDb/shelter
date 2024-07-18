@@ -99,6 +99,8 @@ a {
   &-active {
     position: relative;
 
+    pointer-events: none;
+
     &::after {
       position: absolute;
       left: 0;
@@ -153,15 +155,22 @@ a {
       border-color: $color-primary-light;
       background-color: $color-primary-light;
     }
+  }
 
-    &-inactive {
+  &-active {
+    pointer-events: none;
+    border-color: $color-primary;
+    background-color: $color-primary;
+  }
+
+  &-inactive {
+    pointer-events: none;
+    border-color: $color-dark-s;
+    color: $color-dark-s;
+
+    h4 {
       border-color: $color-dark-s;
       color: $color-dark-s;
-    }
-
-    &-active {
-      border-color: $color-primary;
-      color: $color-primary;
     }
   }
 }

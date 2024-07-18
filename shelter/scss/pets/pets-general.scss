@@ -1,8 +1,6 @@
 .header {
   margin-bottom: 0;
 
-  @include test-border;
-
   div {
     padding-bottom: 30px;
   }
@@ -28,6 +26,24 @@
 
   &-active {
     color: $color-dark-l;
+  }
+}
+
+.controls {
+  @include flex(row, space-between, center);
+
+  gap: 20px;
+}
+
+.btn {
+  &-control {
+    width: 52px;
+    height: 52px;
+    padding: 0;
+
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 1.2px;
   }
 }
 
