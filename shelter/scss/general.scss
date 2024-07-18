@@ -203,9 +203,13 @@ h5 {
 
   background-color: $color-light-s;
 
-  &:hover .btn {
-    border-color: $color-primary-light;
-    background-color: $color-primary-light;
+  &:hover {
+    cursor: pointer;
+    
+    .btn {
+      border-color: $color-primary-light;
+      background-color: $color-primary-light;
+    }
   }
 
   img {
