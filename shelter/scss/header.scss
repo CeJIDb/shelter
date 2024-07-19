@@ -1,16 +1,25 @@
 .header {
-  @include flex(row, space-between, center);
 
-  div {
-    padding: 30px 0;
-  }
+  .header-content {
+    @include flex(row, space-between, center);
 
-  ul {
-    @include reset;
-    @include flex(row, flex-start, center);
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
 
-    gap: 35px;
+    nav {
+      position: relative;
+      top: -3px;
+    }
 
-    list-style: none;
+    ul {
+      @include reset;
+      @include flex(row, flex-start, center);
+  
+      gap: 35px; 
+  
+      list-style: none;   
+    }
   }
 }

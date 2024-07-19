@@ -4,7 +4,7 @@
   background: $start-screen-gradient-background;
 
   .start-screen-content {
-    @include flex(row, space-between, center);
+    @include flex(row, space-between, start);
     padding-top: 180px;
 
     gap: 42px;
@@ -13,6 +13,8 @@
       @include flex(column, space-between, flex-start);
 
       gap: 42px;
+
+      margin-top: 163px;
 
       h2 {
         @include reset;
