@@ -10,10 +10,6 @@
   color: $color-dark-m;
 }
 
-@mixin h5-modal-window {
-  color: #000;
-}
-
 @mixin flex($fd: row, $jc: flex-start, $ai: stretch) {
   display: flex;
   flex-direction: $fd;
