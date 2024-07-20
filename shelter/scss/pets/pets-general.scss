@@ -1,5 +1,4 @@
 .logo {
-
   &-title {
     color: $color-dark-l;
   }
@@ -13,7 +12,7 @@
   color: $color-dark-l;
 
   &:hover {
-    color: $color-dark-3xl
+    color: $color-dark-3xl;
   }
 
   &-active {
@@ -38,4 +37,3 @@
     letter-spacing: 1.2px;
   }
 }
-

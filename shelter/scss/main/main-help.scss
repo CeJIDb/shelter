@@ -20,7 +20,7 @@
 
       .item {
         @include flex(column, space-between, center);
-        
+
         gap: 30px;
 
         img {

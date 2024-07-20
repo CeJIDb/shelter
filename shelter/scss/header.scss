@@ -1,5 +1,4 @@
 .header {
-
   .header-content {
     @include flex(row, space-between, center);
 
@@ -16,10 +15,10 @@
     ul {
       @include reset;
       @include flex(row, flex-start, center);
-  
-      gap: 35px; 
-  
-      list-style: none;   
+
+      gap: 35px;
+
+      list-style: none;
     }
   }
 }

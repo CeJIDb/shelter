@@ -1,11 +1,10 @@
 .logo {
-
   &-title {
     color: $color-primary;
   }
 
   &-subtitle {
-    color: $color-light-xl;;
+    color: $color-light-xl;
   }
 }
 
@@ -13,11 +12,10 @@
   color: $color-dark-s;
 
   &:hover {
-    color: $color-light-s
+    color: $color-light-s;
   }
 
   &-active {
     color: $color-light-s;
   }
 }
-

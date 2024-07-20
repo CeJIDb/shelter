@@ -4,7 +4,7 @@
 
 html {
   scroll-behavior: smooth;
-  
+
   font: 15px/1.6 Arial, sans-serif;
 }
 
@@ -120,7 +120,7 @@ a {
 
 .btn {
   padding: 13px 43px;
-  
+
   border-radius: 100px;
   border: 2px solid $color-primary;
 
@@ -140,12 +140,12 @@ a {
   }
 
   &-color {
-    background-color: $color-primary; 
+    background-color: $color-primary;
   }
-  
+
   &-arrow {
     display: inline-flex;
-    
+
     padding: 21px 17px;
     align-items: center;
 

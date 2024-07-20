@@ -1,6 +1,6 @@
 .start-screen {
   padding: 0 10px;
-  
+
   background: $start-screen-gradient-background;
 
   .start-screen-content {
@@ -20,7 +20,7 @@
         @include reset;
         color: $color-light-xl;
       }
-    
+
       p {
         @include reset;
         color: $color-dark-s;
@@ -28,7 +28,6 @@
     }
 
     .side-right {
-
       img {
         width: 698px;
         height: 728px;

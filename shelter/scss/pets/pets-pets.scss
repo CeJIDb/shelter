@@ -1,7 +1,7 @@
 .pets {
   margin-top: 120px;
   padding: 80px 10px 100px;
-  
+
   background-color: $color-light-l;
 
   .pets-content {
@@ -15,7 +15,7 @@
 
     .slider {
       @include flex(row, space-between, center);
-    
+
       width: 100%;
 
       .cards-container {

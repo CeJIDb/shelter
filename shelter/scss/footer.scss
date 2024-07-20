@@ -32,27 +32,25 @@
         list-style: none;
 
         li {
-
           a {
             @include flex(row, flex-start, center);
 
             gap: 20px;
-            
+
             .icon {
-      
               height: 32px;
-  
+
               &-email,
               &-phone {
                 width: 40px;
               }
-  
+
               &-marker {
                 width: 22px;
               }
             }
           }
-          }
+        }
       }
     }
 
@@ -60,14 +58,13 @@
       flex: 1 0 300px;
 
       gap: 32px;
-        
+
       ul {
         gap: 32px;
       }
     }
 
     .img {
-
       img {
         width: 300px;
         height: 310px;
