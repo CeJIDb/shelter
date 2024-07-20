@@ -13,7 +13,6 @@
     }
 
     ul {
-      @include reset;
       @include flex(row, flex-start, center);
 
       gap: 35px;

@@ -17,12 +17,10 @@
       margin-top: 163px;
 
       h2 {
-        @include reset;
         color: $color-light-xl;
       }
 
       p {
-        @include reset;
         color: $color-dark-s;
       }
     }

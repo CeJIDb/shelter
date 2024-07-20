@@ -24,7 +24,6 @@
       }
 
       ul {
-        @include reset;
         @include flex(column);
 
         gap: 40px;
