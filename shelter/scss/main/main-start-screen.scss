@@ -1,11 +1,9 @@
-.start-screen {
-  padding: 0 10px;
-
+.header {
   background: $start-screen-gradient-background;
 
   .start-screen-content {
     @include flex(row, space-between, start);
-    padding-top: 180px;
+    margin-top: 90px;
 
     gap: 42px;
 
