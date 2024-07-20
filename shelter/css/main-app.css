@@ -121,6 +121,10 @@ a {
   text-decoration: none;
 }
 
+.section {
+  padding: 80px 10px 100px;
+}
+
 .content {
   margin-left: auto;
   margin-right: auto;
@@ -389,9 +393,6 @@ a {
   vertical-align: middle;
 }
 
-.about {
-  padding: 80px 10px 100px;
-}
 .about .about-content {
   display: flex;
   flex-direction: row;
@@ -414,7 +415,6 @@ a {
 }
 
 .pets {
-  padding: 80px 10px 100px;
   background-color: #f6f6f6;
 }
 .pets .pets-content {
@@ -445,9 +445,6 @@ a {
   transform: rotate(180deg);
 }
 
-.help {
-  padding: 80px 10px 100px;
-}
 .help .help-content {
   display: flex;
   flex-direction: column;
@@ -481,7 +478,6 @@ a {
 }
 
 .donation {
-  padding: 80px 10px 100px;
   background-color: #f6f6f6;
 }
 .donation .content {
