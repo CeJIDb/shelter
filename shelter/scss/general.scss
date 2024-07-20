@@ -133,6 +133,8 @@ a {
   transition: all 0.3s;
 
   &:hover {
+    cursor: pointer;
+
     border-color: $color-primary-light;
     background-color: $color-primary-light;
   }

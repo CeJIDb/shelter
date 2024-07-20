@@ -191,6 +191,7 @@ a {
   transition: all 0.3s;
 }
 .btn:hover {
+  cursor: pointer;
   border-color: #fddcc4;
   background-color: #fddcc4;
 }
