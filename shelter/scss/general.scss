@@ -120,6 +120,8 @@ a {
 }
 
 .btn {
+  @include flex(row, center, center);
+
   padding: 13px 43px;
 
   border-radius: 100px;
@@ -146,22 +148,40 @@ a {
     background-color: $color-primary;
   }
 
-  &-arrow {
-    display: inline-flex;
+  &-control {
+    width: 52px;
+    height: 52px;
+    padding: 0;
 
-    padding: 21px 17px;
-    align-items: center;
-
-    img {
-      width: 14px;
-      height: 6px;
-    }
-
-    &:hover {
-      border-color: $color-primary-light;
-      background-color: $color-primary-light;
-    }
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 1.2px;
   }
+
+  .left-arrow {
+    transform: rotate(180deg);
+  }
+
+  .right-arrow {
+    transform: rotate(180deg);
+  }
+
+  // &-arrow {
+  //   display: inline-flex;
+
+  //   padding: 21px 17px;
+  //   align-items: center;
+
+  //   img {
+  //     width: 14px;
+  //     height: 6px;
+  //   }
+
+  //   &:hover {
+  //     border-color: $color-primary-light;
+  //     background-color: $color-primary-light;
+  //   }
+  // }
 
   &-active {
     pointer-events: none;

@@ -183,6 +183,10 @@ a {
 }
 
 .btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   padding: 13px 43px;
   border-radius: 100px;
   border: 2px solid #f1cdb3;
@@ -202,18 +206,19 @@ a {
 .btn-color {
   background-color: #f1cdb3;
 }
-.btn-arrow {
-  display: inline-flex;
-  padding: 21px 17px;
-  align-items: center;
+.btn-control {
+  width: 52px;
+  height: 52px;
+  padding: 0;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 1.2px;
 }
-.btn-arrow img {
-  width: 14px;
-  height: 6px;
+.btn .left-arrow {
+  transform: rotate(180deg);
 }
-.btn-arrow:hover {
-  border-color: #fddcc4;
-  background-color: #fddcc4;
+.btn .right-arrow {
+  transform: rotate(180deg);
 }
 .btn-active {
   pointer-events: none;
@@ -375,15 +380,6 @@ a {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-}
-
-.btn-control {
-  width: 52px;
-  height: 52px;
-  padding: 0;
-  font-size: 20px;
-  line-height: 1.15;
-  letter-spacing: 1.2px;
 }
 
 .pets {
