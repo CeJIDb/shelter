@@ -3,7 +3,7 @@
 
   .start-screen-content {
     @include flex(row, space-between, start);
-    margin-top: 90px;
+    margin-top: 88px;
 
     gap: 42px;
 
@@ -12,7 +12,7 @@
 
       gap: 42px;
 
-      margin-top: 163px;
+      margin-top: 164px;
 
       h2 {
         color: $color-light-xl;

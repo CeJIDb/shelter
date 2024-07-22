@@ -165,7 +165,6 @@ a {
 
 .link {
   font: inherit;
-  font-style: normal;
   transition: all 0.3s;
 }
 .link-active {
@@ -373,7 +372,7 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-items: start;
-  margin-top: 90px;
+  margin-top: 88px;
   gap: 42px;
 }
 .header .start-screen-content .side-left {
@@ -382,7 +381,7 @@ a {
   justify-content: space-between;
   align-items: flex-start;
   gap: 42px;
-  margin-top: 163px;
+  margin-top: 164px;
 }
 .header .start-screen-content .side-left h2 {
   color: #ffffff;
