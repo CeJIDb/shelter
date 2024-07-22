@@ -1,0 +1,17 @@
+@mixin paragraph-s {
+  font-size: 12px;
+  line-height: 1.5;
+  font-style: italic;
+  color: $color-dark-m;
+}
+
+@mixin flex($fd: row, $jc: flex-start, $ai: stretch) {
+  display: flex;
+  flex-direction: $fd;
+  justify-content: $jc;
+  align-items: $ai;
+}
+
+@mixin test-border {
+  border: 1px solid red;
+}

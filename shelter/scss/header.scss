@@ -1,0 +1,20 @@
+.header {
+  padding: 30px 10px 0;
+
+  .header-content {
+    @include flex(row, space-between, center);
+
+    nav {
+      position: relative;
+      top: -3px;
+    }
+
+    ul {
+      @include flex(row, flex-start, center);
+
+      gap: 35px;
+
+      list-style: none;
+    }
+  }
+}

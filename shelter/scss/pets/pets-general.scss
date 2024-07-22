@@ -1,0 +1,31 @@
+.header {
+  margin-bottom: 30px;
+}
+
+.logo {
+  &-title {
+    color: $color-dark-l;
+  }
+
+  &-subtitle {
+    color: $color-dark-3xl;
+  }
+}
+
+.link {
+  color: $color-dark-l;
+
+  &:hover {
+    color: $color-dark-3xl;
+  }
+
+  &-active {
+    color: $color-dark-l;
+  }
+}
+
+.controls {
+  @include flex(row, space-between, center);
+
+  gap: 20px;
+}

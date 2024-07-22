@@ -1,0 +1,21 @@
+.logo {
+  &-title {
+    color: $color-primary;
+  }
+
+  &-subtitle {
+    color: $color-light-xl;
+  }
+}
+
+.link {
+  color: $color-dark-s;
+
+  &:hover {
+    color: $color-light-s;
+  }
+
+  &-active {
+    color: $color-light-s;
+  }
+}
