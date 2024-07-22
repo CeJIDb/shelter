@@ -1,11 +1,8 @@
 .header {
+  padding: 30px 10px 0;
+
   .header-content {
     @include flex(row, space-between, center);
-
-    position: absolute;
-    top: 30px;
-    left: 0;
-    right: 0;
 
     nav {
       position: relative;
