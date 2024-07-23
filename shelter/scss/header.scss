@@ -1,5 +1,5 @@
 .header {
-  padding: 30px 10px 0;
+  padding: 30px 40px 0;
 
   .header-content {
     @include flex(row, space-between, center);
@@ -20,4 +20,5 @@
 }
 
 @media (768px <= width < 1280px) {
+
 }
