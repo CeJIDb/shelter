@@ -314,7 +314,14 @@ a {
   justify-content: center;
   gap: 160px;
 }
-.footer .footer-content .item {
+.footer .footer-content .contacts-container {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  gap: 160px;
+}
+.footer .footer-content .contacts-container .item {
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -322,13 +329,13 @@ a {
   margin-top: 16px;
   gap: 40px;
 }
-.footer .footer-content .item h3 {
+.footer .footer-content .contacts-container .item h3 {
   color: #fff;
 }
-.footer .footer-content .item h4 {
+.footer .footer-content .contacts-container .item h4 {
   color: #f1cdb3;
 }
-.footer .footer-content .item ul {
+.footer .footer-content .contacts-container .item ul {
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -336,27 +343,27 @@ a {
   gap: 40px;
   list-style: none;
 }
-.footer .footer-content .item ul li a {
+.footer .footer-content .contacts-container .item ul li a {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   gap: 20px;
 }
-.footer .footer-content .item ul li a .icon {
+.footer .footer-content .contacts-container .item ul li a .icon {
   height: 32px;
 }
-.footer .footer-content .item ul li a .icon-email, .footer .footer-content .item ul li a .icon-phone {
+.footer .footer-content .contacts-container .item ul li a .icon-email, .footer .footer-content .contacts-container .item ul li a .icon-phone {
   width: 40px;
 }
-.footer .footer-content .item ul li a .icon-marker {
+.footer .footer-content .contacts-container .item ul li a .icon-marker {
   width: 22px;
 }
-.footer .footer-content .locations {
+.footer .footer-content .contacts-container .locations {
   flex: 1 0 300px;
   gap: 32px;
 }
-.footer .footer-content .locations ul {
+.footer .footer-content .contacts-container .locations ul {
   gap: 32px;
 }
 .footer .footer-content .img img {
@@ -365,6 +372,23 @@ a {
   vertical-align: middle;
 }
 
+@media (320px < width <= 768px) {
+  .footer {
+    padding: 30px 30px 0;
+  }
+  .footer .footer-content {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 65px;
+  }
+  .footer .footer-content .contacts-container {
+    max-width: 640px;
+    gap: 60px;
+  }
+  .footer .footer-content .contacts-container .item {
+    margin-top: 0;
+  }
+}
 .logo-title {
   color: #f1cdb3;
 }
