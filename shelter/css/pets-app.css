@@ -165,7 +165,6 @@ a {
 
 .link {
   font: inherit;
-  font-style: normal;
   transition: all 0.3s;
 }
 .link-active {
@@ -354,7 +353,7 @@ a {
 }
 
 .header {
-  margin-bottom: 30px;
+  margin-bottom: 27px;
 }
 
 .logo-title {
