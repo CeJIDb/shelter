@@ -223,3 +223,16 @@ a {
 .test-border {
   @include test-border;
 }
+
+@media (320px < width <= 768px) {
+  .section {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  // .content,
+  // .side-left,
+  // .side-right {
+  //   @include test-border;
+  // }
+}

@@ -22,3 +22,15 @@
     }
   }
 }
+
+@media (320px < width <= 768px) {
+  .about {
+    .about-content {
+      flex-direction: column-reverse;
+
+      padding: 0 139px;
+
+      gap: 80px;
+    }
+  }
+}
