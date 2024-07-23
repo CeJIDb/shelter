@@ -7,7 +7,6 @@
   "dependencies": {
     "normalize.css": "^8.0.1",
     "stylelint": "^16.7.0",
-    "stylelint-scss": "^6.4.1",
-    "surge": "^0.0.0"
+    "stylelint-scss": "^6.4.1"
   }
 }
