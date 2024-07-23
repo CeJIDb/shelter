@@ -290,6 +290,12 @@ a {
   list-style: none;
 }
 
+@media (320px < width <= 768px) {
+  .header {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
 .footer {
   padding: 40px 40px 0;
   background: url("../assets/images/noise_transparent.png"), radial-gradient(237.5% 111.8% at 0% 0%, #5b483a 0%, #262425 100%), #211f20;

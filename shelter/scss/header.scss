@@ -19,6 +19,9 @@
   }
 }
 
-@media (768px <= width < 1280px) {
-
+@media (320px < width <= 768px) {
+  .header {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 }
