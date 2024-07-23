@@ -37,3 +37,18 @@
     }
   }
 }
+
+@media (320px < width <= 768px) {
+  .donation {
+    .donation-content {
+      max-width: 505px;
+      flex-direction: column-reverse;
+
+      gap: 60px;
+
+      .side-right {
+        max-width: 380px;
+      }
+    }
+  }
+}

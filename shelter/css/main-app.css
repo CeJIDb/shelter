@@ -413,18 +413,19 @@ a {
   vertical-align: middle;
 }
 
-@media (width <= 768px) {
+@media (320px < width <= 768px) {
   .header .start-screen-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin: 60px 70px 0;
+    max-width: 569px;
+    margin-top: 60px;
     gap: 100px;
   }
   .header .start-screen-content .side-left {
+    max-width: 460px;
     align-items: center;
-    padding: 0 54px;
     margin-top: 0;
   }
   .header .start-screen-content .side-left h2 {
@@ -462,8 +463,9 @@ a {
 
 @media (320px < width <= 768px) {
   .about .about-content {
+    max-width: 430px;
     flex-direction: column-reverse;
-    padding: 0 139px;
+    padding: 0;
     gap: 80px;
   }
 }
@@ -537,7 +539,7 @@ a {
 
 @media (320px < width <= 768px) {
   .help .help-content {
-    margin: 0 38px;
+    max-width: 630px;
   }
   .help .help-content .list {
     gap: 55px 60px;
@@ -580,6 +582,17 @@ a {
   border-radius: 9px;
   background-color: #f1cdb3;
   gap: 15px;
+}
+
+@media (320px < width <= 768px) {
+  .donation .donation-content {
+    max-width: 505px;
+    flex-direction: column-reverse;
+    gap: 60px;
+  }
+  .donation .donation-content .side-right {
+    max-width: 380px;
+  }
 }
 
 /*# sourceMappingURL=main-app.css.map */
