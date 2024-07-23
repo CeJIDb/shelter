@@ -447,4 +447,26 @@ a {
   gap: 30px 40px;
 }
 
+@media (320px < width <= 768px) {
+  .pets {
+    padding-right: 30px;
+    padding-bottom: 75px;
+    padding-left: 30px;
+  }
+  .pets .pets-content {
+    gap: 30px;
+  }
+  .pets .pets-content .slider {
+    justify-content: center;
+  }
+  .pets .pets-content .slider .cards-container {
+    overflow: hidden;
+    max-width: 580px;
+    max-height: 1365px;
+  }
+  .pets .controls {
+    padding-top: 10px;
+  }
+}
+
 /*# sourceMappingURL=pets-app.css.map */
