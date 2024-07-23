@@ -11,9 +11,9 @@
     .item {
       @include flex(column);
 
-      gap: 40px;
-
       margin-top: 16px;
+
+      gap: 40px;
 
       h3 {
         color: $color-light-xl;

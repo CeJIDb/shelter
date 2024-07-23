@@ -19,8 +19,7 @@
         @include flex(row, space-between, center);
 
         flex-wrap: wrap;
-        column-gap: 40px;
-        row-gap: 30px;
+        gap: 30px 40px;
       }
     }
   }

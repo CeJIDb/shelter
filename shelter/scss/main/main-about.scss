@@ -2,9 +2,9 @@
   .about-content {
     @include flex(row, space-between, center);
 
-    gap: 120px;
-
     padding: 0 175px;
+
+    gap: 120px;
 
     .side-left {
       img {

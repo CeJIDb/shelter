@@ -10,11 +10,10 @@
 
     .list {
       @include flex(row, center, center);
-      column-gap: 120px;
-      row-gap: 55px;
-      flex-wrap: wrap;
 
       width: 100%;
+      flex-wrap: wrap;
+      gap: 55px 120px;
 
       .item {
         @include flex(column, space-between, center);

@@ -25,14 +25,14 @@
       gap: 20px;
 
       .credit-card {
-        @include flex();
-
-        gap: 15px;
+        @include flex;
 
         padding: 10px 15px;
 
         border-radius: 9px;
         background-color: $color-primary;
+
+        gap: 15px;
       }
     }
   }

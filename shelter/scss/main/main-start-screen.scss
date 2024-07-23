@@ -10,9 +10,9 @@
     .side-left {
       @include flex(column, space-between, flex-start);
 
-      gap: 42px;
-
       margin-top: 164px;
+
+      gap: 42px;
 
       h2 {
         color: $color-light-xl;
