@@ -127,6 +127,8 @@ a {
 .btn {
   @include flex(row, center, center);
 
+  flex-shrink: 0;
+
   padding: 13px 43px;
   border: 2px solid $color-primary;
 

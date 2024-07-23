@@ -23,3 +23,19 @@
     }
   }
 }
+
+@media (320px < width <= 768px) {
+  .pets {
+    .pets-content {
+      .slider {
+        gap: 12px;
+
+        .cards-container {
+          overflow: hidden;
+
+          gap: 40px;
+        }
+      }
+    }
+  }
+}
