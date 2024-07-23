@@ -32,7 +32,7 @@
 @media (320px < width <= 768px) {
   .help {
     .help-content {
-      margin: 0 38px;
+      max-width: 630px;
 
       .list {
         gap: 55px 60px;

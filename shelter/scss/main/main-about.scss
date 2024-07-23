@@ -26,9 +26,11 @@
 @media (320px < width <= 768px) {
   .about {
     .about-content {
+      max-width: 430px;
+
       flex-direction: column-reverse;
 
-      padding: 0 139px;
+      padding: 0;
 
       gap: 80px;
     }
