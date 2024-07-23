@@ -423,7 +423,7 @@ a {
   align-items: flex-start;
   justify-content: space-between;
   margin-top: 164px;
-  gap: 42px;
+  gap: 41px;
 }
 .header .start-screen-content .side-left h2 {
   color: #fff;
@@ -501,7 +501,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  gap: 60px;
+  gap: 59px;
 }
 .pets .pets-content h3 {
   text-align: center;
@@ -588,6 +588,7 @@ a {
 .donation .donation-content .side-left img {
   width: 505px;
   height: 261px;
+  text-align: center;
   vertical-align: middle;
 }
 .donation .donation-content .side-right {

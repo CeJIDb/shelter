@@ -379,10 +379,13 @@ a {
   .footer .footer-content {
     flex-wrap: wrap;
     justify-content: center;
-    gap: 65px 60px;
+    gap: 65px;
   }
-  .footer .footer-content .item {
-    max-width: 300px;
+  .footer .footer-content .contacts-container {
+    max-width: 640px;
+    gap: 60px;
+  }
+  .footer .footer-content .contacts-container .item {
     margin-top: 0;
   }
 }

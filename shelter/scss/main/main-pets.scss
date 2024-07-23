@@ -4,7 +4,7 @@
   .pets-content {
     @include flex(column, space-between, center);
 
-    gap: 60px;
+    gap: 59px;
 
     h3 {
       text-align: center;
