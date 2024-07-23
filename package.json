@@ -1,12 +1,15 @@
 {
   "devDependencies": {
     "htmlhint": "^1.1.4",
-    "prettier": "3.3.3",
+    "prettier": "^3.3.3",
     "stylelint": "^16.7.0",
     "stylelint-config-idiomatic-order": "^10.0.0",
     "stylelint-config-standard": "^36.0.0",
     "stylelint-config-standard-scss": "^13.1.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.8.0",
+    "stylelint-group-selectors": "^1.0.10",
     "stylelint-order": "^6.0.4",
+    "stylelint-prettier": "^5.0.2",
     "stylelint-scss": "^6.4.1"
   },
   "dependencies": {
