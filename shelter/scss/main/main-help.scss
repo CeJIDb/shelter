@@ -28,3 +28,19 @@
     }
   }
 }
+
+@media (320px < width <= 768px) {
+  .help {
+    .help-content {
+      margin: 0 38px;
+
+      .list {
+        gap: 55px 60px;
+
+        .item {
+          flex: 0 0 170px;
+        }
+      }
+    }
+  }
+}

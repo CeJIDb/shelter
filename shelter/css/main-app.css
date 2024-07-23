@@ -535,6 +535,17 @@ a {
   height: 60px;
 }
 
+@media (320px < width <= 768px) {
+  .help .help-content {
+    margin: 0 38px;
+  }
+  .help .help-content .list {
+    gap: 55px 60px;
+  }
+  .help .help-content .list .item {
+    flex: 0 0 170px;
+  }
+}
 .donation {
   background-color: #f6f6f6;
 }
