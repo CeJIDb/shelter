@@ -226,11 +226,11 @@ a {
   @include test-border;
 }
 
-.content,
-.side-left,
-.side-right {
-  @include test-border;
-}
+// .content,
+// .side-left,
+// .side-right {
+//   @include test-border;
+// }
 
 @media (width <= 768px) {
   .section {
@@ -240,6 +240,14 @@ a {
 }
 
 @media (width <= 320px) {
+  h2,
+  h3 {
+    font-size: 25px;
+    letter-spacing: 1.5px;
+
+    text-align: center;
+  }
+
   .section {
     padding-right: 10px;
     padding-left: 10px;

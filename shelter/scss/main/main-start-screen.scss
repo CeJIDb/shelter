@@ -67,3 +67,29 @@
     }
   }
 }
+
+@media (width <= 320px) {
+  .header {
+    .start-screen-content {
+      max-width: 300px;
+
+      gap: 105px;
+
+      .side-left {
+        p {
+          text-align: center;
+        }
+      }
+
+      .side-right {
+        right: 0;
+
+        text-align: right;
+
+        img {
+          width: 87%;
+        }
+      }
+    }
+  }
+}
