@@ -269,10 +269,22 @@ a {
   border: 1px solid red;
 }
 
+.content,
+.side-left,
+.side-right {
+  border: 1px solid red;
+}
+
 @media (width <= 768px) {
   .section {
     padding-right: 30px;
     padding-left: 30px;
+  }
+}
+@media (width <= 320px) {
+  .section {
+    padding-right: 20px;
+    padding-left: 20px;
   }
 }
 .header {
@@ -283,6 +295,12 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+.header .header-content .nav-toggle-label {
+  display: none;
+}
+.header .header-content .nav-toggle {
+  display: none;
 }
 .header .header-content nav {
   position: relative;
@@ -301,6 +319,28 @@ a {
   .header {
     padding-right: 30px;
     padding-left: 30px;
+  }
+}
+@media (width <= 320px) {
+  .header {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .header .header-content .nav-toggle-label {
+    display: block;
+  }
+  .header .header-content .nav-toggle-label::before {
+    display: block;
+    width: 30px;
+    height: 22px;
+    background-image: url("../assets/icons/icon-burger.svg");
+    background-size: contain;
+    content: "";
+    cursor: pointer;
+  }
+  .header .header-content nav {
+    display: none;
+    width: 100%;
   }
 }
 .footer {

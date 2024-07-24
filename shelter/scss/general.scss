@@ -226,15 +226,22 @@ a {
   @include test-border;
 }
 
+.content,
+.side-left,
+.side-right {
+  @include test-border;
+}
+
 @media (width <= 768px) {
   .section {
     padding-right: 30px;
     padding-left: 30px;
   }
+}
 
-  // .content,
-  // .side-left,
-  // .side-right {
-  //   @include test-border;
-  // }
+@media (width <= 320px) {
+  .section {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 }
