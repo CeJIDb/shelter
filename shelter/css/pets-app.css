@@ -269,7 +269,7 @@ a {
   border: 1px solid red;
 }
 
-@media (320px < width <= 768px) {
+@media (width <= 768px) {
   .section {
     padding-right: 30px;
     padding-left: 30px;
@@ -297,7 +297,7 @@ a {
   list-style: none;
 }
 
-@media (320px < width <= 768px) {
+@media (width <= 768px) {
   .header {
     padding-right: 30px;
     padding-left: 30px;
@@ -372,7 +372,7 @@ a {
   vertical-align: middle;
 }
 
-@media (320px < width <= 768px) {
+@media (width <= 768px) {
   .footer {
     padding: 30px 30px 0;
   }
@@ -447,7 +447,7 @@ a {
   gap: 30px 40px;
 }
 
-@media (320px < width <= 768px) {
+@media (width <= 768px) {
   .pets {
     padding-right: 30px;
     padding-bottom: 75px;

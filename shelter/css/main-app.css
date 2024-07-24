@@ -269,7 +269,7 @@ a {
   border: 1px solid red;
 }
 
-@media (320px < width <= 768px) {
+@media (width <= 768px) {
   .section {
     padding-right: 30px;
     padding-left: 30px;
@@ -297,7 +297,7 @@ a {
   list-style: none;
 }
 
-@media (320px < width <= 768px) {
+@media (width <= 768px) {
   .header {
     padding-right: 30px;
     padding-left: 30px;
@@ -372,7 +372,7 @@ a {
   vertical-align: middle;
 }
 
-@media (320px < width <= 768px) {
+@media (width <= 768px) {
   .footer {
     padding: 30px 30px 0;
   }
@@ -437,7 +437,7 @@ a {
   vertical-align: middle;
 }
 
-@media (320px < width <= 768px) {
+@media (width <= 768px) {
   .header .start-screen-content {
     display: flex;
     flex-direction: column;
@@ -485,7 +485,7 @@ a {
   gap: 25px;
 }
 
-@media (320px < width <= 768px) {
+@media (width <= 768px) {
   .about .about-content {
     max-width: 430px;
     flex-direction: column-reverse;
@@ -521,7 +521,7 @@ a {
   gap: 90px;
 }
 
-@media (320px < width <= 768px) {
+@media (width <= 768px) {
   .pets .pets-content .slider {
     gap: 12px;
   }
@@ -561,7 +561,7 @@ a {
   height: 60px;
 }
 
-@media (320px < width <= 768px) {
+@media (width <= 768px) {
   .help .help-content {
     max-width: 630px;
   }
@@ -609,7 +609,7 @@ a {
   gap: 15px;
 }
 
-@media (320px < width <= 768px) {
+@media (width <= 768px) {
   .donation .donation-content {
     max-width: 505px;
     flex-direction: column-reverse;

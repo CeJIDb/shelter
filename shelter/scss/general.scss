@@ -226,7 +226,7 @@ a {
   @include test-border;
 }
 
-@media (320px < width <= 768px) {
+@media (width <= 768px) {
   .section {
     padding-right: 30px;
     padding-left: 30px;

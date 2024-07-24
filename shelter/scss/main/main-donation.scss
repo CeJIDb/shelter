@@ -39,7 +39,7 @@
   }
 }
 
-@media (320px < width <= 768px) {
+@media (width <= 768px) {
   .donation {
     .donation-content {
       max-width: 505px;

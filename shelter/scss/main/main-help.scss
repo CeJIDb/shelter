@@ -29,7 +29,7 @@
   }
 }
 
-@media (320px < width <= 768px) {
+@media (width <= 768px) {
   .help {
     .help-content {
       max-width: 630px;

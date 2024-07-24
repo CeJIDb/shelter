@@ -23,7 +23,7 @@
   }
 }
 
-@media (320px < width <= 768px) {
+@media (width <= 768px) {
   .about {
     .about-content {
       max-width: 430px;
