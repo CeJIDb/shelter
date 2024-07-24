@@ -2,16 +2,16 @@
   background: $start-screen-gradient-background;
 
   .start-screen-content {
-    @include flex(row, space-between, start);
+    @include flex(row, space-between);
 
     margin-top: 88px;
 
     gap: 42px;
 
     .side-left {
-      @include flex(column, space-between, flex-start);
-
-      margin-top: 164px;
+      @include flex(column, flex-start, flex-start);
+      min-height: 100%;
+      padding: 164px 0 40px;
 
       gap: 41px;
 
@@ -25,11 +25,26 @@
     }
 
     .side-right {
-      img {
-        width: 698px;
-        height: 728px;
+      @include flex(row, center, flex-end);
 
-        vertical-align: middle;
+      min-height: 100%;
+
+      flex: 1 0 calc(698 / 1200 * 100%);
+
+      img {
+        width: 100%;
+        max-width: 698px;
+      }
+    }
+  }
+}
+
+@media (width <= 1100px) {
+  .header {
+    .start-screen-content {
+      .side-left {
+        justify-content: center;
+        padding-top: 0;
       }
     }
   }
@@ -40,7 +55,6 @@
     .start-screen-content {
       @include flex(column, space-between, center);
 
-      max-width: 569px;
       margin-top: 60px;
 
       gap: 100px;
@@ -48,6 +62,7 @@
       .side-left {
         max-width: 460px;
         align-items: center;
+        padding-bottom: 0;
         margin-top: 0;
 
         h2 {
@@ -56,12 +71,11 @@
       }
 
       .side-right {
-        position: relative;
-        right: -70px;
+        min-width: 100%;
+        justify-content: flex-end;
 
         img {
-          width: 100%;
-          height: 100%;
+          max-width: 569px;
         }
       }
     }
@@ -72,6 +86,8 @@
   .header {
     .start-screen-content {
       max-width: 300px;
+
+      align-items: end;
 
       gap: 105px;
 
@@ -84,10 +100,8 @@
       .side-right {
         right: 0;
 
-        text-align: right;
-
         img {
-          width: 87%;
+          max-width: 260px;
         }
       }
     }

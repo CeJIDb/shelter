@@ -239,7 +239,7 @@ a {
   }
 }
 
-@media (width <= 320px) {
+@media (width <= 400px) {
   h2,
   h3 {
     font-size: 25px;
@@ -249,7 +249,6 @@ a {
   }
 
   .section {
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 42px 10px;
   }
 }
