@@ -125,6 +125,7 @@ a {
   padding: 13px 43px;
 
   border-radius: 100px;
+  background-color: transparent;
   border: 2px solid $color-primary;
 
   text-align: center;
@@ -213,6 +214,7 @@ a {
   background-color: $color-light-s;
 
   &:hover {
+    background-color: $color-light-xl;
     cursor: pointer;
 
     .btn {

@@ -188,6 +188,7 @@ a {
   align-items: center;
   padding: 13px 43px;
   border-radius: 100px;
+  background-color: transparent;
   border: 2px solid #f1cdb3;
   text-align: center;
   vertical-align: middle;
@@ -246,6 +247,7 @@ a {
   background-color: #fafafa;
 }
 .card:hover {
+  background-color: #ffffff;
   cursor: pointer;
 }
 .card:hover .btn {
