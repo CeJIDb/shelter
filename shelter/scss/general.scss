@@ -133,6 +133,7 @@ a {
   border: 2px solid $color-primary;
 
   border-radius: 100px;
+  background-color: transparent;
   color: $color-dark-3xl;
 
   font:
@@ -204,6 +205,7 @@ a {
   gap: 30px;
 
   &:hover {
+    background-color: $color-light-xl;
     cursor: pointer;
 
     .btn {
