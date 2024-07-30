@@ -234,23 +234,25 @@ a {
 //   @include test-border;
 // }
 
-@media (width <= 768px) {
+@media (width < 1200px) {
   .section {
     padding-right: 30px;
     padding-left: 30px;
   }
 }
 
-@media (width <= 400px) {
+@media (width < 768px) {
+  .section {
+    padding: 42px 10px;
+  }
+}
+
+@media (width < 420px) {
   h2,
   h3 {
     font-size: 25px;
     letter-spacing: 1.5px;
 
     text-align: center;
-  }
-
-  .section {
-    padding: 42px 10px;
   }
 }
