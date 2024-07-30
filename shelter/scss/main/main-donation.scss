@@ -34,6 +34,12 @@
         background-color: $color-primary;
 
         gap: 15px;
+
+        transition: background-color 0.3s;
+
+        &:hover {
+          background-color: $color-primary-light;
+        }
       }
     }
   }
