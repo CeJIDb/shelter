@@ -27,13 +27,13 @@
     .side-right {
       @include flex(row, center, flex-end);
 
-      min-height: 100%;
+      max-width: 698px;
+      max-height: 728px;
 
       flex: 1 0 calc(698 / 1200 * 100%);
 
       img {
         width: 100%;
-        max-width: 698px;
       }
     }
   }

@@ -27,6 +27,13 @@
   }
 }
 
+@media (width < 1200px) {
+  .header {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
 @media (width < 768px) {
   .header {
     padding-right: 10px;
