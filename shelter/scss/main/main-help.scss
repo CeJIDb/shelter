@@ -29,7 +29,7 @@
   }
 }
 
-@media (width <= 768px) {
+@media (width < 1200px) {
   .help {
     .help-content {
       max-width: 630px;
@@ -38,7 +38,49 @@
         gap: 55px 60px;
 
         .item {
-          flex: 0 0 170px;
+          width: 170px;
+        }
+      }
+    }
+  }
+}
+
+@media (width < 650px) {
+  .help {
+    .help-content {
+      .list {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(5, auto);
+
+        .item {
+          gap: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (width < 450px) {
+  .help {
+    .help-content {
+      gap: 42px;
+
+      .list {
+        .item {
+          width: 130px;
+
+          img {
+            width: 50px;
+            height: 50px;
+          }
+
+          h4 {
+            font-size: 15px;
+            letter-spacing: 0.9px;
+            line-height: 110%;
+          }
         }
       }
     }
