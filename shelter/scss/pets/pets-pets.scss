@@ -16,7 +16,7 @@
       width: 100%;
 
       .cards-container {
-        @include flex(row, space-between, center);
+        @include flex(row, center, center);
 
         flex-wrap: wrap;
         gap: 30px 40px;
@@ -25,11 +25,9 @@
   }
 }
 
-@media (width <= 768px) {
+@media (width < 950px) {
   .pets {
-    padding-right: 30px;
     padding-bottom: 75px;
-    padding-left: 30px;
 
     .pets-content {
       gap: 30px;
@@ -48,6 +46,22 @@
 
     .controls {
       padding-top: 10px;
+    }
+  }
+}
+
+@media (width < 650px) {
+  .pets {
+    padding: 42px 10px;
+
+    .pets-content {
+      gap: 42px;
+
+      .controls {
+        padding-top: 0;
+
+        gap: 10px;
+      }
     }
   }
 }
